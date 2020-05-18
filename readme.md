@@ -8,14 +8,14 @@
 ```
 cd C:\Program Files\MongoDB\Server\4.2\bin\
 
-mongod.exe --dbpath C:\Users\Vishnu\Desktop\Code\Z-Small-Projects\MongoDb-data
+mongod.exe
 ```
 
 ### How to start the Node Server
 
 * Run in CMD
 ```
-cd C:\Users\Vishnu\Desktop\Code\BookMyShow
+go to the file where you have stored this project then...
 
 node route_angmongo.js
 ```
@@ -24,17 +24,6 @@ node route_angmongo.js
 * Go to localhost:3000/
 * To enter data use Postman Software 
   * Enter the data in JSON format
-
-### Enter data in JSON format: 
-
-```
-{
-    "name": "Vishnu",
-    "position": "Frontend Developer",
-    "office": "Bangalore",
-    "salary":1000000
-}
-```
 
 ## Angular
 
